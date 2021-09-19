@@ -1,0 +1,136 @@
+body{
+    margin:0;
+}
+main{
+    margin-left: 15px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+li{
+    display: block;
+}
+nav{
+    background-color: black;
+}
+.titulo{
+    margin-bottom: 5px;
+}
+.credits{
+    color: grey; 
+    font-size: 12px; 
+    margin-top: 0px;
+}
+.topHeaderMenu {
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    top: 0;
+    width: 100%;
+  }
+
+.navItem{
+    margin-left: 15px;
+    margin: 10px 0px 10px 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+.reminderBody{
+    width: 200px;
+    min-height: 100px;
+    padding: 10px 10px 10px 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 10px;
+}
+.emptyDiv{
+    width: 125px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    
+}
+.adddiv{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.remindersSection{
+    display: inline-flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: 100%;
+}
+.reminderTitle{
+    margin: 10px;
+    max-width: 80%;
+    word-wrap: break-word;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+.reminderBox{
+    display: inline-flex;
+    flex-basis: auto;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+}
+.ReminderDel{
+    width: 15px;
+    height: 15px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.ItemVisible{
+    display: inline-flex;
+    flex-basis: auto;
+    width: auto;
+}
+.ItemInvisible{
+    display: none;
+}
+.ReminderVisible{
+    display: inline-flex;
+}
+.ReminderInvisible{
+    display: none;
+}
+.itemMarcado{
+    text-decoration: line-through;
+}
+.ItemLabel{
+    word-wrap: break-word;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+}
+.ItemBox{
+    width: 100%;
+}
+.itemDiv{
+    width: 12%;
+}
+.itemLabelDiv{
+    max-width: 76%;
+    margin-right: 5px;
+}
+.ItemDel{
+    width: 10px;
+    cursor: pointer;
+}
+.addReminderButton{
+    font-size: 50px;
+    height: 75px;
+    width: 75px;
+    text-align: center;
+}
+
+
+
+
